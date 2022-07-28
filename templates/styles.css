@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@page {
+    size: letter;
+    margin: 0mm;
+}
+
+.keep-together {
+    page-break-inside: avoid;
+}
+
+.break-before {
+    page-break-before: always;
+}
+
+.break-after {
+    page-break-after: always;
+}
+
+mark.bad {
+    @apply bg-[#E37222] p-0.5 px-1 rounded-md;
+}
+
+mark.good {
+    @apply bg-[#69BE28] p-0.5 px-1 rounded-md;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-top: 0px;
+    border-bottom: 0px;
+    text-align: left;
+    padding: 8px;
+}
+
+.good-bar {
+    @apply -ml-2 inline-block align-middle bg-[#69BE28] h-6 border border-black border-l-0 rounded-r-md;
+}
+
+.bad-bar {
+    @apply -ml-2 inline-block align-middle bg-[#E37222] h-6 border border-black border-l-0 rounded-r-md;
+}
