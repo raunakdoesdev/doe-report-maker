@@ -374,27 +374,6 @@ video {
 .top-0 {
   top: 0px !important;
 }
-.right-4 {
-  right: 1rem !important;
-}
-.top-0 {
-  top: 0px !important;
-}
-.mt-8 {
-  margin-top: 2rem !important;
-}
-.mb-2 {
-  margin-bottom: 0.5rem !important;
-}
-.mt-2 {
-  margin-top: 0.5rem !important;
-}
-.mr-8 {
-  margin-right: 2rem !important;
-}
-.mt-4 {
-  margin-top: 1rem !important;
-}
 .mt-8 {
   margin-top: 2rem !important;
 }
@@ -433,41 +412,6 @@ video {
 .h-8 {
   height: 2rem !important;
 }
-.h-fit {
-  height: -webkit-fit-content !important;
-  height: -moz-fit-content !important;
-  height: fit-content !important;
-}
-.h-\[500px\] {
-  height: 500px !important;
-}
-.h-full {
-  height: 100% !important;
-}
-.h-8 {
-  height: 2rem !important;
-}
-.w-screen {
-  width: 100vw !important;
-}
-.w-full {
-  width: 100% !important;
-}
-.w-\[32\%\] {
-  width: 32% !important;
-}
-.w-80 {
-  width: 20rem !important;
-}
-.w-\[70\%\] {
-  width: 70% !important;
-}
-.w-\[95\%\] {
-  width: 95% !important;
-}
-.w-\[35\%\] {
-  width: 35% !important;
-}
 .w-screen {
   width: 100vw !important;
 }
@@ -498,12 +442,6 @@ video {
 .bg-gray-300 {
   background-color: rgb(209 213 219 / 1) !important;
 }
-.bg-\[\#00583C\] {
-  background-color: rgb(0 88 60 / 1) !important;
-}
-.bg-gray-300 {
-  background-color: rgb(209 213 219 / 1) !important;
-}
 .bg-\[\#69BE28\] {
   background-color: rgb(105 190 40 / 1) !important;
 }
@@ -517,23 +455,6 @@ video {
 .px-14 {
   padding-left: 3.5rem !important;
   padding-right: 3.5rem !important;
-}
-.px-4 {
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
-.px-14 {
-  padding-left: 3.5rem !important;
-  padding-right: 3.5rem !important;
-}
-.pt-2\.5 {
-  padding-top: 0.625rem !important;
-}
-.pt-2 {
-  padding-top: 0.5rem !important;
-}
-.pt-\[240px\] {
-  padding-top: 240px !important;
 }
 .pt-2\.5 {
   padding-top: 0.625rem !important;
@@ -569,28 +490,6 @@ video {
   font-size: 2.25rem !important;
   line-height: 2.5rem !important;
 }
-.text-2xl {
-  font-size: 1.5rem !important;
-  line-height: 2rem !important;
-}
-.text-lg {
-  font-size: 1.125rem !important;
-  line-height: 1.75rem !important;
-}
-.text-xl {
-  font-size: 1.25rem !important;
-  line-height: 1.75rem !important;
-}
-.text-4xl {
-  font-size: 2.25rem !important;
-  line-height: 2.5rem !important;
-}
-.font-bold {
-  font-weight: 700 !important;
-}
-.font-semibold {
-  font-weight: 600 !important;
-}
 .font-bold {
   font-weight: 700 !important;
 }
@@ -599,12 +498,6 @@ video {
 }
 .leading-tight {
   line-height: 1.25 !important;
-}
-.text-white {
-  color: rgb(255 255 255 / 1) !important;
-}
-.text-black {
-  color: rgb(0 0 0 / 1) !important;
 }
 .text-white {
   color: rgb(255 255 255 / 1) !important;
